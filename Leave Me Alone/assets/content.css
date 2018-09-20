@@ -1,0 +1,67 @@
+.comet-modal-content {
+  background-color:rgb(256,256,256);
+  margin:10% auto;
+  padding:20px;
+  border:1px solid #888;
+  width:475px;
+  max-height:75%;
+}
+
+.comet-modal-header {
+  margin-bottom:10px;
+  font-weight:bold
+}
+
+.comet-close-span {
+  color:#aaa;
+  float:right;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.comet-container-list {
+  margin-top: 10px;
+  max-height:350px;
+  overflow-y:scroll;
+}
+
+.comet-button {
+  height: 38px;
+  border: none;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'NiveauGroteskBold', sans-serif;
+  font-size: 12px;
+  outline: none;
+  margin-left: 20px;
+}
+
+.comet-button.comet-button-dark {
+  background-color: #1A1A1A;
+  color: #FFFF52;
+}
+
+.comet-button.comet-button-dark :hover {
+  background-color: #FFFF52;
+  color: #1A1A1A;
+}
+
+.comet-button.comet-button-bright {
+  color: #1A1A1A;
+  border: 2px solid #1A1A1A;
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.comet-button.comet-button-bright:hover {
+  background-color: #1A1A1A;
+  color: #FFF;
+}
+
+.comet-modal-footer {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 20px;
+}

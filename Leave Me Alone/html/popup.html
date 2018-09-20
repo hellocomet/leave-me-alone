@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>LMA - LinkedIn Cleaner</title>
+</head>
+
+<body id="popup">
+
+  <h1><span class="underlined">LMA - LinkedIn Cleaner</span></h1>
+
+  <div class="content">
+    <div class="toolbar">
+      <img src="../assets/images/help.svg" alt="help" id="help">
+      <img src="../assets/images/settings.svg" alt="settings" id="settings">
+    </div>
+
+    <div class="wrong-page">
+      <p>
+        To start cleaning your Linkedin invitations please visit the invitation manager page and then click again on the LMA extension:
+        <span id="linkedIn">invitation manager page</span>
+      </p>
+      <p>
+        To start cleaning your existing connections visit your your existing network page and then click again on the LMA extension:
+        <span id="linkedIn2">connections page</span>
+      </p>
+    </div>
+
+    <div class="right-page pending-invitation">
+      <p class="desc">
+        OK. You're almost there, but before clicking on the button below 👇 make sure the keywords you want to target are selected by clicking on the settings button right there 👆
+      </p>
+
+      <div class="row center">
+        <button class="dark" id="start-pending">Leave Me Alone!</button>
+      </div>
+    </div>
+
+    <div class="right-page existing-connection">
+      <p class="desc">
+        OK. We will clean your connection network, but before clicking on the button below 👇 make sure the keywords you want to target are selected by clicking on the settings button right there 👆
+      </p>
+
+      <div class="row center">
+        <button class="dark" id="start-existing">Leave Me Alone (exisiting)!</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+  <footer>
+    <div class="row">
+      <p>by</p>
+      <img src="../assets/images/comet-long.svg" alt="logo_comet" id="logo-comet">
+    </div>
+  </footer>
+
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>

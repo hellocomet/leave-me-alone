@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.9064082,16.3206217 C13.7689869,17.1662851 12.3595953,17.6666667 10.8333333,17.6666667 C7.05938754,17.6666667 4,14.6072791 4,10.8333333 C4,7.05938754 7.05938754,4 10.8333333,4 C14.6072791,4 17.6666667,7.05938754 17.6666667,10.8333333 C17.6666667,12.3595953 17.1662851,13.7689869 16.3206217,14.9064082 L19.7071068,18.2928932 C20.0976311,18.6834175 20.0976311,19.3165825 19.7071068,19.7071068 C19.3165825,20.0976311 18.6834175,20.0976311 18.2928932,19.7071068 L14.9064082,16.3206217 Z M10.8333333,15.6666667 C13.5027096,15.6666667 15.6666667,13.5027096 15.6666667,10.8333333 C15.6666667,8.16395704 13.5027096,6 10.8333333,6 C8.16395704,6 6,8.16395704 6,10.8333333 C6,13.5027096 8.16395704,15.6666667 10.8333333,15.6666667 Z" id="path-1"></path>
+    </defs>
+    <g id="Dashboard-Entreprise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-Entreprise---Dropdown" transform="translate(-256.000000, -244.000000)">
+            <g id="Group-18" transform="translate(252.000000, 240.000000)">
+                <g id="Icon/Search">
+                    <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask" fill-rule="nonzero"></g>
+                    <g id="Mixin/Fill/Black" mask="url(#mask-2)" fill-rule="evenodd" fill="#1A1A1A">
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

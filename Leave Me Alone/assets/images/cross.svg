@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16.415 8.414 15 7 11.708 10.293 8.415 7 7 8.414 10.293 11.707 7 15 8.415 16.414 11.708 13.122 15 16.414 16.415 15 13.122 11.707"></polygon>
+    </defs>
+    <g id="Dashboard-Entreprise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-up" transform="translate(-1140.000000, -209.000000)">
+            <g id="Group-2" transform="translate(253.000000, 185.000000)">
+                <g id="Icon/Remove" transform="translate(887.000000, 24.000000)">
+                    <rect id="Bounding-Box" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mixin/Fill/Black" mask="url(#mask-2)" fill-rule="evenodd" fill="#1A1A1A">
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>LMA settings</title>
+</head>
+
+<body class="space-ships" id="app">
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <div class="box col7 centerXY">
+    
+    <div class="row center">
+      <h1><span class="underlined">Keywords manager</span></h1>
+    </div>
+    
+    <div class="row line-box">
+      <p>Please add the keywords you want the LMA extension to target. For instance, if you want to ignore all the recruiters invitations or connections, you can use the keywords we've added below.</p>
+    </div>
+    
+    <h2>Add a keyword</h2>
+    <div class="row line-box">
+      <label for="addLabel">Add headlines keywords you want to target</label>
+      <input type="text" id="nameHeadline">
+      <button class="bright" id="addHeadline">Add</button>
+    </div>
+    
+    <div class="line-box">
+      <h2>Keywords list</h2>
+      <div class="row space-between">
+        <p>You can check or uncheck whatever you want.</p>
+        <p>
+          <span class="selector" id="select-all">Select all</span>
+          <span>|</span>
+          <span class="selector" id="unselect-all">Unselect all</span>
+        </p>
+      </div>
+      <ul id="headlineList">
+      </ul>
+    </div>
+    
+    <div class="row right button-group line-box">
+      <button class="red" id="delete">Delete all keywords</button>
+      <button class="green" id="update">Save</button>
+    </div>
+    
+  </div>
+
+  <div class="modal">
+    <div class="modal-content centerXY">
+      
+      <span class="close-modal">&times;</span>
+      
+      <h2>Are you sure?</h2>
+      
+      <div class="row">
+        <p>Are you sure you want to delete all the keywords?<span id="headline-delete"></span> ?</p>
+      </div>
+
+      <div class="row right button-group">
+        <button id="modal-cancel" class="red">cancel</button>
+        <button id="modal-confirm" class="green">confirm</button>
+      </div>
+    
+    </div>
+  </div>
+
+  <script src="../js/options.js"></script>
+</body>
+</html>
