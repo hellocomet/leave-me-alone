@@ -1,4 +1,4 @@
-# leave-me-alone
+# Leave Me Alone !
 
 Hi! We are comet, and we help freelance developers have a fulfilling life, one **problem solved** at a time.
 
