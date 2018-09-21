@@ -34,6 +34,8 @@ You then need to click the `Load unpacked` button, and select the folder where t
 
 Leave Me Alone is developed in glorious Vanilla JS, HTML and CSS. Just fork the project, make your changes, and submit a Pull Request ! We will happily review it as soon as possible!
 
+To easily test your changes, you should install the extension in Developer Mode. Changes to the code will be taken into account immediately without reinstalling.
+
 Alternatively, you can always [submit an issue](https://github.com/hellocomet/leave-me-alone/issues) if you notice any bug, or if you wish to request a new feature !
 
 ❤ Made with LOVE by the sweet people at comet.co ❤
