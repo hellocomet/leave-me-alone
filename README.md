@@ -1,14 +1,14 @@
-# Leave Me Alone !
+# Leave Me Alone!
 
 Hi! We are comet, and we help freelance developers have a fulfilling life, one **problem solved** at a time.
 
-## What is this ?
+## What is this?
 
 Lots of engineers from our community complained about unsolicited messages and connections on LinkedIn. So we developed Leave Me Alone (LMA), a Chrome extension to help you clear the noise.
 
 It will **clean your LinkedIn pending invitations** and **contact list** in record time, based on configurable keywords and job titles.
 
-## How do i install this
+## How do I install this
 
 ### Chrome Web Store
 
@@ -28,15 +28,13 @@ You then need to click the `Load unpacked` button, and select the folder where t
 
 ![Load unpacked](https://i.imgur.com/rnTCije.png)
 
-## How do i contribute
+## How do I contribute
 
-### GitHub
-
-Leave Me Alone is developed in glorious Vanilla JS, HTML and CSS. Just fork the project, make your changes, and submit a Pull Request ! We will happily review it as soon as possible!
+Leave Me Alone is developed in glorious VanillaJS, HTML and CSS. Just fork the project, make your changes, and submit a Pull Request! We will happily review it as soon as possible!
 
 To easily test your changes, you should install the extension in Developer Mode. Changes to the code will be taken into account immediately without reinstalling.
 
-Alternatively, you can always [submit an issue](https://github.com/hellocomet/leave-me-alone/issues) if you notice any bug, or if you wish to request a new feature !
+Alternatively, you can always [submit an issue](https://github.com/hellocomet/leave-me-alone/issues) if you notice any bug, or if you wish to request a new feature!
 
 ### Product Hunt
 
