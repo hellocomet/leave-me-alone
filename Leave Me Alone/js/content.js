@@ -67,7 +67,7 @@ const findAllCards = () => {
 
 
 const selectCardOrNot = (card, headlines) => {
-  let position = card.querySelector('.invitation-card__occupation');
+  let position = card.querySelector('.invitation-card__subtitle');
   position = position.innerText;
   let checkBox = card.querySelector('input[type="checkbox"]');
   let checkBool = false;
@@ -103,8 +103,8 @@ const extractInfos = connection => {
   headline = headline.innerText;
   let name = connection.querySelector('.mn-connection-card__name');
   name = name.innerText;
-  let profileImage = connection.querySelector('div.presence-entity__image');
-  profileImage = profileImage.style.backgroundImage.slice(5, -2);
+  let profileImage = connection.querySelector('img.presence-entity__image');
+  profileImage = profileImage.src;
   return { headline, name, profileImage }
 }
 
@@ -129,15 +129,15 @@ function deleteConnection (connection) {
 
     let trigger = connection.querySelector('button[data-control-name=ellipsis]');
     trigger.click();
-    let removeButton = connection.querySelector("button[data-control-name=remove]");
+    let removeButton = connection.querySelector(".js-mn-connection-card__dropdown-delete-btn button");
 
     let options = {
       fireOnAttributesModification: false,
       onceOnly: true,
       existing: false,
     };
-    let modalContainer = document.querySelector('div#li-modal-container');
-    modalContainer.arrive('div.modal-content-wrapper', options, handleConnection);
+    let modalContainer = document.querySelector('#artdeco-modal-outlet');
+    modalContainer.arrive('div.mn-delete-connection-modal', options, handleConnection);
 
     removeButton.click();
   });
@@ -208,7 +208,7 @@ const displayModal = (connectionsFiltered, headlinesRegex) => {
 
   let spanContent = document.createElement('span');
   spanContent.style = 'font-size:90%'
-  spanContent.innerText = 'The following connections will be removed:'
+  spanContent.innerText = 'The following ' + connectionsFiltered.length + ' connections will be removed:'
   modalContent.appendChild(spanContent);
 
   let containerList = document.createElement('div');
@@ -275,8 +275,10 @@ const cleanExistingConnections = () => {
             .filter(connection => removeConnectionOrNot(connection, headlinesRegex))
           return Promise.resolve(connectionsFiltered)
         })
-        .then(connectionsFiltered => displayModal(connectionsFiltered, headlinesRegex))
-        .then(connectionsFiltered => {console.log('connexions filtrées', connectionsFiltered)})
+        .then(connectionsFiltered => {
+          displayModal(connectionsFiltered, headlinesRegex) ;
+          return connectionsFiltered}
+        ).then(connectionsFiltered => {console.log('connexions filtrées', connectionsFiltered)})
     }
   });
 }
